@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "peeptrend": {
+      "command": "npx",
+      "args": ["-y", "peeptrend-mcp"],
+      "env": {
+        "PEEPTREND_API_KEY": "${PEEPTREND_API_KEY}"
+      }
+    }
+  }
+}

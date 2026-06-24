@@ -1,0 +1,59 @@
+{
+  "name": "peeptrend-mcp",
+  "version": "0.1.1",
+  "description": "PeepTrend MCP server for finding rising Steam games and YouTube gaming content opportunities before niches get crowded.",
+  "mcpName": "com.peeptrend/youtube-gaming-trend-finder",
+  "type": "module",
+  "license": "MIT",
+  "author": "PeepTrend <support@peeptrend.com>",
+  "homepage": "https://peeptrend.com/integrations/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PeepTrend/PeepTrend.MCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeepTrend/PeepTrend.MCP/issues"
+  },
+  "keywords": [
+    "mcp",
+    "youtube",
+    "gaming",
+    "steam",
+    "creator-tools",
+    "peeptrend"
+  ],
+  "bin": {
+    "peeptrend-mcp": "dist/server.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "integrations",
+    "plugins",
+    "skills",
+    "mcp-registry"
+  ],
+  "scripts": {
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
+    "build": "npm run clean && tsc -p tsconfig.build.json",
+    "prepare": "npm run build",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js",
+    "test": "node --import tsx --test \"src/**/*.test.ts\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "validate": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

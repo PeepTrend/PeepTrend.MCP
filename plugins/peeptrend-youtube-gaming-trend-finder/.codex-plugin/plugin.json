@@ -1,0 +1,33 @@
+{
+  "name": "peeptrend-youtube-gaming-trend-finder",
+  "version": "0.1.1",
+  "description": "Find rising Steam games and YouTube content opportunities before the niche gets crowded.",
+  "author": {
+    "name": "PeepTrend",
+    "email": "support@peeptrend.com",
+    "url": "https://peeptrend.com"
+  },
+  "homepage": "https://peeptrend.com/integrations/codex",
+  "repository": "https://github.com/PeepTrend/PeepTrend.MCP",
+  "license": "MIT",
+  "keywords": ["youtube", "gaming", "steam", "mcp", "creator-tools"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "PeepTrend: YouTube Gaming Trend Finder",
+    "shortDescription": "Find rising Steam games and YouTube opportunities before niches get crowded.",
+    "longDescription": "PeepTrend connects Codex to focused MCP tools for YouTube gaming trend research, Steam opportunity discovery, title checks, shelf saturation, channel-name checks, and creator planning.",
+    "developerName": "PeepTrend",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Research", "MCP"],
+    "websiteURL": "https://peeptrend.com/integrations/codex",
+    "privacyPolicyURL": "https://peeptrend.com/privacy",
+    "termsOfServiceURL": "https://peeptrend.com/terms",
+    "defaultPrompt": [
+      "Find YouTube gaming opportunities for my market.",
+      "Check if this video title is crowded.",
+      "Turn this Steam game into a creator plan."
+    ],
+    "brandColor": "#00C2E8"
+  }
+}

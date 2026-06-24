@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.peeptrend/youtube-gaming-trend-finder",
+  "title": "PeepTrend: YouTube Gaming Trend Finder",
+  "description": "Find rising Steam games and YouTube content opportunities before the niche gets crowded.",
+  "repository": {
+    "url": "https://github.com/PeepTrend/PeepTrend.MCP",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "peeptrend-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "PEEPTREND_API_KEY",
+          "description": "Optional PeepTrend API key from Profile > AI integrations. Required for account-aware limits, full reports, ideas, workflow actions, and subscription features.",
+          "format": "string",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
