@@ -21,6 +21,22 @@ PeepTrend accounts can create API keys for MCP clients. Some tools are available
 
 ## Install
 
+Codex:
+
+```bash
+codex plugin marketplace add PeepTrend/PeepTrend.MCP
+codex plugin add peeptrend-youtube-gaming-trend-finder@peeptrend
+```
+
+Claude Code:
+
+```bash
+claude plugin marketplace add PeepTrend/PeepTrend.MCP
+claude plugin install peeptrend-youtube-gaming-trend-finder@peeptrend
+```
+
+Generic MCP clients:
+
 ```bash
 npm install -g peeptrend-mcp
 ```

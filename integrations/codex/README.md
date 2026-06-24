@@ -2,6 +2,15 @@
 
 PeepTrend can be used in Codex through the MCP server or the bundled Codex plugin scaffold in this repository.
 
+## Plugin Install
+
+```bash
+codex plugin marketplace add PeepTrend/PeepTrend.MCP
+codex plugin add peeptrend-youtube-gaming-trend-finder@peeptrend
+```
+
+Restart Codex or start a new thread after installation.
+
 ## MCP Config
 
 ```json

@@ -1,5 +1,16 @@
 # PeepTrend for Claude
 
+## Claude Code Plugin
+
+```bash
+claude plugin marketplace add PeepTrend/PeepTrend.MCP
+claude plugin install peeptrend-youtube-gaming-trend-finder@peeptrend
+```
+
+Run `/reload-plugins` in an open Claude Code session after installation.
+
+## Claude Desktop MCP
+
 Add PeepTrend to Claude Desktop as an MCP server:
 
 ```json
