@@ -1,0 +1,12 @@
+{
+  "name": "peeptrend-youtube-gaming-trend-finder",
+  "description": "Find rising Steam games and YouTube content opportunities before the niche gets crowded.",
+  "version": "0.1.1",
+  "author": {
+    "name": "PeepTrend",
+    "email": "support@peeptrend.com"
+  },
+  "homepage": "https://peeptrend.com/integrations/mcp",
+  "repository": "https://github.com/PeepTrend/PeepTrend.MCP",
+  "license": "MIT"
+}

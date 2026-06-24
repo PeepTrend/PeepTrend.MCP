@@ -1,0 +1,21 @@
+{
+  "name": "peeptrend",
+  "description": "PeepTrend tools for YouTube gaming trend research, Steam opportunity discovery, and creator planning.",
+  "owner": {
+    "name": "PeepTrend",
+    "email": "support@peeptrend.com"
+  },
+  "plugins": [
+    {
+      "name": "peeptrend-youtube-gaming-trend-finder",
+      "source": "./plugins/peeptrend-youtube-gaming-trend-finder",
+      "description": "Find rising Steam games and YouTube content opportunities before the niche gets crowded.",
+      "version": "0.1.1",
+      "author": {
+        "name": "PeepTrend",
+        "email": "support@peeptrend.com"
+      },
+      "homepage": "https://peeptrend.com/integrations/mcp"
+    }
+  ]
+}
