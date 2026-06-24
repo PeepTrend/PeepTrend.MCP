@@ -7,19 +7,19 @@
     "url": "https://github.com/PeepTrend/PeepTrend.MCP",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "peeptrend-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },
       "environmentVariables": [
         {
           "name": "PEEPTREND_API_KEY",
-          "description": "Optional PeepTrend API key from Profile > AI integrations. Required for account-aware limits, full reports, ideas, workflow actions, and subscription features.",
+          "description": "Optional PeepTrend API key from Profile > AI integrations. Free checks can run with public limits; set this key for account-aware limits, full reports, generated ideas, saved plans, alerts, and subscription features.",
           "format": "string",
           "isRequired": false,
           "isSecret": true

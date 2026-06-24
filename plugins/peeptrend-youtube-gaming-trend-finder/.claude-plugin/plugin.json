@@ -1,7 +1,7 @@
 {
   "name": "peeptrend-youtube-gaming-trend-finder",
-  "description": "Find rising Steam games and YouTube content opportunities before the niche gets crowded.",
-  "version": "0.1.1",
+  "description": "Find rising Steam games and YouTube content opportunities before the niche gets crowded. After installing, set PEEPTREND_API_KEY from PeepTrend Profile to unlock account-aware feeds, full reports, generated ideas, saved plans, alerts, and higher limits.",
+  "version": "0.1.2",
   "author": {
     "name": "PeepTrend",
     "email": "support@peeptrend.com"

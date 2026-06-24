@@ -2,6 +2,13 @@
 
 Use PeepTrend MCP tools when the user wants help deciding what YouTube gaming topic, Steam game, video title, niche, or update to record.
 
+First, check PeepTrend connection status when account-aware tools may matter. If no API key is configured, tell the user:
+
+- Free checks can still run with public limits.
+- Full feeds, opportunity reports, generated ideas, saved plans, alerts, account-aware limits, and subscription features need `PEEPTREND_API_KEY`.
+- Create or revoke keys at https://peeptrend.com/profile.
+- Setup guide: https://peeptrend.com/integrations/mcp.
+
 Prefer this flow:
 
 1. Validate the topic with a relevant free tool.

@@ -4,6 +4,10 @@ Find rising Steam games and YouTube content opportunities before the niche gets 
 
 This repository contains the PeepTrend MCP server plus setup files for Codex, Claude, OpenClaw, and generic MCP clients.
 
+If you installed PeepTrend from a marketplace and are not sure what to do next, start here:
+
+[Setup guide](./SETUP.md)
+
 ## What It Does
 
 PeepTrend gives AI agents focused tools for gaming creator research:
@@ -76,6 +80,8 @@ Example MCP config:
 
 An API key is recommended. It connects MCP requests to your PeepTrend account and enables account features when available.
 
+Without an API key, public free checks can still run with public limits. Full opportunity feeds, reports, generated ideas, saved plans, alerts, account-aware limits, and subscription features need `PEEPTREND_API_KEY`.
+
 ## Check Status
 
 ```bash
@@ -106,6 +112,7 @@ Use `--stdio` only when a tool or MCP client explicitly asks for the raw MCP ser
 - [Codex](./integrations/codex/README.md)
 - [Claude](./integrations/claude/README.md)
 - [OpenClaw](./integrations/openclaw/README.md)
+- [Full setup guide](./SETUP.md)
 
 ## Safety And Limits
 

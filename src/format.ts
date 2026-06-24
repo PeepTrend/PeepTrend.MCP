@@ -43,9 +43,9 @@ export function formatConnectionStatus(input: {
   return [
     `PeepTrend MCP is connected to ${input.apiBaseUrl}.`,
     input.authenticated
-      ? "API key is configured. Paid dashboard actions, workflow, and higher limits can be used when the PeepTrend account allows it."
-      : "No API key is configured. Free tools still work with public limits; create a key in PeepTrend Profile to unlock account-aware tools.",
-    `Create or revoke keys: ${input.websiteBaseUrl}/profile`,
+      ? "API key is configured. Ask your AI client to find opportunities, open reports, generate ideas, save plans, or validate titles. Subscription-only actions will work when your PeepTrend account allows them."
+      : "Installed, but no API key is configured. Free checks still work with public limits. To unlock account-aware feeds, full reports, generated ideas, saved plans, alerts, and higher limits, create a PeepTrend key and set PEEPTREND_API_KEY in this AI client.",
+    `Create, rotate, or revoke keys: ${input.websiteBaseUrl}/profile`,
     `Integration docs: ${input.websiteBaseUrl}/integrations/mcp`
   ].join("\n");
 }

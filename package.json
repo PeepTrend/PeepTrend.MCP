@@ -1,6 +1,6 @@
 {
   "name": "peeptrend-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "PeepTrend MCP server for finding rising Steam games and YouTube gaming content opportunities before niches get crowded.",
   "mcpName": "com.peeptrend/youtube-gaming-trend-finder",
   "type": "module",
@@ -28,6 +28,7 @@
   "files": [
     "dist",
     "README.md",
+    "SETUP.md",
     "LICENSE",
     "integrations",
     "plugins",

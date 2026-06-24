@@ -29,7 +29,7 @@ export class PeepTrendClient {
 
   private async request<T>(options: RequestOptions): Promise<T> {
     if (options.authRequired && !this.config.apiKey) {
-      throw new PeepTrendApiError("Connect a free PeepTrend API key to use this tool. Create one in Profile > API keys.", {
+      throw new PeepTrendApiError("PeepTrend is installed, but this account-aware tool needs PEEPTREND_API_KEY. Create a key in PeepTrend Profile > AI integrations, add it to your AI client config, then run get_peeptrend_connection_status. Free research checks still work with public limits.", {
         status: 401,
         code: "ApiKeyRequired",
         upgradeUrl: upgradeUrl("/profile")
@@ -62,7 +62,7 @@ export class PeepTrendClient {
         response.status === 402
           ? "This PeepTrend action is locked after the free preview. Start the trial to unlock full opportunities, idea generation, workflow actions, and higher MCP limits."
           : response.status === 429
-            ? "This PeepTrend tool is temporarily rate limited. Try a cached result, wait for the reset, or upgrade for more room."
+            ? "This PeepTrend tool is temporarily rate limited. Try a smaller check, wait for the reset, or upgrade for more room."
             : rawMessage;
 
       throw new PeepTrendApiError(message, {

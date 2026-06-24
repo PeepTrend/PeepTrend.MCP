@@ -4,6 +4,16 @@ Use this skill when a creator, editor, strategist, or AI agent wants to decide w
 
 PeepTrend connects Steam demand signals with YouTube supply signals. The goal is not to promise views. The goal is to help the user choose a practical, evidence-backed topic before a game, update, shelf, or niche becomes too crowded.
 
+## First-Run Setup
+
+When the user installs this from OpenClaw or ClawHub, make setup explicit before using account-only tools:
+
+- Ask the agent or user to run the PeepTrend connection status check.
+- If no API key is configured, explain that free checks can still run with public limits.
+- Full opportunity feeds, reports, generated ideas, saved plans, alerts, account-aware limits, and subscription features need `PEEPTREND_API_KEY`.
+- Create or revoke keys in PeepTrend Profile: https://peeptrend.com/profile.
+- Use the setup guide when the user is unsure where to place the key: https://peeptrend.com/integrations/mcp.
+
 ## Best Use Cases
 
 - Find rising Steam games that may still have room on YouTube.
@@ -19,16 +29,19 @@ PeepTrend connects Steam demand signals with YouTube supply signals. The goal is
 1. Clarify the creator context.
    Ask for the channel size, target language, region, preferred game genres, upload cadence, and whether the user wants quick validation or a deeper plan.
 
-2. Start with the lightest PeepTrend check.
+2. Check PeepTrend connection status.
+   If the key is missing, continue with public free checks when possible and explain what the key unlocks before using account-only tools.
+
+3. Start with the lightest PeepTrend check.
    Use title checks, shelf saturation checks, niche checks, game-fit checks, or Steam update checks before opening full opportunity reports.
 
-3. Read the evidence, not only the score.
+4. Read the evidence, not only the score.
    Compare demand, competition, saturation, freshness, recent videos, channel overlap, and creator fit. Treat high scores as a shortlist, not as guarantees.
 
-4. Produce a creator-ready recommendation.
+5. Produce a creator-ready recommendation.
    Answer with what to record, why now, what is crowded, what evidence supports the idea, what risks remain, and what to test before recording.
 
-5. Move to paid/account-aware actions only when useful.
+6. Move to paid/account-aware actions only when useful.
    If the user wants full reports, generated ideas, saved plans, alerts, or repeated workflow, explain that those actions use their PeepTrend account and may require subscription access.
 
 ## Output Format
@@ -69,4 +82,3 @@ For deeper planning, use:
 - "Is this Steam update worth covering on YouTube, or is the niche already saturated?"
 - "Compare cozy survival games and tell me which one has the cleanest creator opportunity."
 - "Turn this PeepTrend opportunity into a video plan with title angles and risk notes."
-

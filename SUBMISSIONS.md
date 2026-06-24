@@ -129,7 +129,7 @@ clawhub login
 clawhub skill publish ./skills/openclaw/youtube-gaming-trend-finder \
   --slug peeptrend-youtube-gaming-trend-finder \
   --name "PeepTrend: YouTube Gaming Trend Finder" \
-  --version 0.1.1 \
+  --version 0.1.2 \
   --changelog "Initial PeepTrend OpenClaw skill for YouTube gaming trend research." \
   --tags latest,youtube,gaming,steam,mcp
 ```
@@ -139,7 +139,7 @@ Dry-run result:
 ```text
 status: would-publish
 slug: peeptrend-youtube-gaming-trend-finder
-version: 0.1.1
+version: 0.1.2
 fileCount: 1
 ```
 
@@ -164,4 +164,3 @@ The OpenAI `openai/plugins` repository is a curated collection, not a self-serve
 - `plugins/peeptrend-youtube-gaming-trend-finder/.codex-plugin/plugin.json`
 - `plugins/peeptrend-youtube-gaming-trend-finder/.mcp.json`
 - `plugins/peeptrend-youtube-gaming-trend-finder/skills/youtube-gaming-trend-finder/SKILL.md`
-

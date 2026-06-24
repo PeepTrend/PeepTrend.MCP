@@ -1,6 +1,6 @@
 {
   "name": "peeptrend-youtube-gaming-trend-finder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Find rising Steam games and YouTube content opportunities before the niche gets crowded.",
   "author": {
     "name": "PeepTrend",
@@ -16,7 +16,7 @@
   "interface": {
     "displayName": "PeepTrend: YouTube Gaming Trend Finder",
     "shortDescription": "Find rising Steam games and YouTube opportunities before niches get crowded.",
-    "longDescription": "PeepTrend connects Codex to focused MCP tools for YouTube gaming trend research, Steam opportunity discovery, title checks, shelf saturation, channel-name checks, and creator planning.",
+    "longDescription": "PeepTrend connects Codex to focused MCP tools for YouTube gaming trend research, Steam opportunity discovery, title checks, shelf saturation, channel-name checks, and creator planning. After installing, create a PeepTrend API key in Profile > AI integrations and set PEEPTREND_API_KEY to unlock account-aware feeds, full reports, generated ideas, saved plans, alerts, and higher limits. Free research checks can still run with public limits.",
     "developerName": "PeepTrend",
     "category": "Productivity",
     "capabilities": ["Interactive", "Research", "MCP"],
@@ -24,6 +24,7 @@
     "privacyPolicyURL": "https://peeptrend.com/privacy",
     "termsOfServiceURL": "https://peeptrend.com/terms",
     "defaultPrompt": [
+      "Check my PeepTrend connection status and tell me what to configure next.",
       "Find YouTube gaming opportunities for my market.",
       "Check if this video title is crowded.",
       "Turn this Steam game into a creator plan."

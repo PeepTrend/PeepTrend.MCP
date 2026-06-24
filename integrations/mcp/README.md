@@ -2,6 +2,10 @@
 
 Use this for any MCP-compatible client.
 
+Start with the full setup guide if you installed PeepTrend from a marketplace:
+
+https://github.com/PeepTrend/PeepTrend.MCP/blob/main/SETUP.md
+
 ```json
 {
   "mcpServers": {
@@ -18,6 +22,7 @@ Use this for any MCP-compatible client.
 
 Good starter prompts:
 
+- "Use PeepTrend to check connection status."
 - "Find gaming opportunities for US English creators and explain the top 3."
 - "Check whether this YouTube title is crowded: Minecraft update explained."
 - "Check if this Steam game is worth covering for my channel."
